@@ -4,8 +4,11 @@
     "postcss": "^8.4.24",
     "tailwindcss": "^3.3.2"
   },
-
   "scripts": {
     "build-css": "tailwindcss build style.css -o src/css/style.css"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.29.3",
+    "gulp": "^4.0.2"
   }
 }
