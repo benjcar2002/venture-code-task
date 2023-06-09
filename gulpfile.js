@@ -20,8 +20,8 @@ function execute(command) {
 // Serve from browserSync server
 function browsersyncServe(cb) {
     browserSync.init({
-        proxy: {
-			target: "localhost:8888/venture-code-task/src/example.php",
+        proxy: {    // your environment directory here...
+			target: "localhost/...",
 		},
     });
     cb();
